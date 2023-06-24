@@ -61,7 +61,7 @@
 
       h1 {
         font-size: 80px;
-        font-size: 700;
+        font-weight: 700;
         color: #2e367d;
         margin-bottom: 10px;
       }
@@ -98,12 +98,26 @@
         .wrapper {
           padding: 0 20px;
         }
+
+        .content {
+          text-align: center;
+        }
       }
 
       @media screen and (max-width: 480px) {
         /* For screens up to 480px */
         .wrapper {
           padding: 0 10px;
+        }
+
+        .content {
+          text-align: center;
+        }
+
+        lottie-player {
+          width: 100%;
+          height: auto;
+          max-width: 300px;
         }
       }
     </style>
