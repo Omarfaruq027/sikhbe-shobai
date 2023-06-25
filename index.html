@@ -91,30 +91,32 @@
       /* Media Queries */
       @media screen and (max-width: 768px) {
         /* For screens up to 768px */
+        .banner-section {
+          height: auto;
+          padding: 30px 0;
+        }
+
         .wrapper {
           flex-direction: column;
-          justify-content: center;
           align-items: center;
-          text-align: center;
-          padding: 0 20px;
-          margin-top: 30px;
         }
 
         .content {
-          width: 100%;
-          margin-top: 30px;
+          width: 90%;
+          margin-top: 20px;
           text-align: center;
         }
 
         h1 {
-          font-size: 44px;
+          font-size: 48px;
+          margin-bottom: 20px;
         }
 
         lottie-player {
           width: 100%;
+          max-width: 450px;
           height: auto;
-          max-height: 100%;
-          transform: translate3d(0px, 15px, 0px);
+          margin-top: 30px;
         }
       }
 
